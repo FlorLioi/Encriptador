@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/encriptadorTexto.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img src="./media/1.png" alt="munieco">
+        <h1>Encriptador de texto</h1>
+    </header>
+
+    <main>
+        <section class="section1">
+            <p class="section1__mensaje">Escriba su mensaje</p>
+            <input type="text" class="mensaje mensajeIngresado" placeholder="Con minusculas y sin acentos">
+            <div class="section1__btn">
+                <input type="button" value="Encriptar" class="btn btnEncriptar">
+                <input type="button" value="Desencriptar" class="btn btnDesencriptar">
+            </div>
+            <input type="button" value="Limpiar" class="btnLimpiar">
+        </section>
+        <section class="section2">
+            <p class="section2__mensaje">Resultado</p>
+            <input type="text" class="mensaje resultado">
+            <div>
+                <input type="button" value="Copiar" class="btnCopiar">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho por Flor Lioi &#128153;</p>
+    </footer>
+
+    <script src="./js/encriptadorTexto.js"></script>
+</body>
+</html>
